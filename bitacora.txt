@@ -1,0 +1,11 @@
+- En DevTools, al abrir la pestaña Network y refrescar la página se puede observar una única petición, la cual tiene como nombre 'index.html' tal es el nombre del archivo que se está ejecutando. 
+La URL completa es file:///home/vboxuser/Desktop/ruedalibre/index.html
+El protocolo es file en este caso, puesto que el archivo no ha sido subido a la web (?)
+El host o dominio, es lo que se encuentra después de los primeros // por lo tanto, es home/vboxuser/Desktop/ruedalibre/index.html
+El puerto se encuentra en las URL separado por dos puntos, en este caso no se encuentra ninguno correspondiente
+No hay ruta, puesto que no se encuentran /... luego de terminado el host.
+El método de la petición según la ventana de inspeccionar es "GET".
+Finalmente, el código de estado es 200 ok, lo cual es congruente con la vista correcta del archivo.
+
+HTML, CSS y JavaScript cumplirán roles muy importantes, como lo son: estructura, diseño e interactividad respectivamente. Por ejemlo, HTML se encarga de darle el orden al contenido del archivo en el caso actual, por ejemplo html se encarga de establecer el título mediante la etiqueta h1. CSS se encarga del diseño y estilo de la página, por ejemplo, mediante la etiqueta style. Finalmente, Javascript permitirá que el sitio web sea interactivo, por ejemplo con las etiquetas <script>.
+
